@@ -1,0 +1,42 @@
+nav{ background-color:brown;
+}
+nav .leftnav img { float: left;
+clear: right;
+clear: both;
+}
+nav .Authentic .logotext{ 
+    padding-top: 90px;
+    font-weight: 700;
+    font-size: 40px;
+    
+}
+nav .Authentic button{ background-color:#F19201;
+color:white;
+font-weight:600;
+padding-left:20px;
+padding-right:25px;
+padding-top:10px;
+padding-bottom:10px ;
+border:none ;
+}
+
+nav .leftnav{ 
+    width: 100%;
+    overflow: hidden;
+    background: darkslategray;
+    
+}
+nav ul li a { width: 100px;
+display: block;
+padding: 20px 15px ;
+text-decoration: none;
+color: white;
+text-align: center;  
+}
+li{ float: left;}
+ul{
+    width: 100%;
+    margin: 0 0 0 550px;
+    list-style: none;
+
+}
