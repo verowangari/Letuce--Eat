@@ -32,11 +32,18 @@ padding: 20px 15px ;
 text-decoration: none;
 color: white;
 text-align: center;  
+font-weight: 700;
 }
 li{ float: left;}
 ul{
     width: 100%;
     margin: 0 0 0 550px;
     list-style: none;
+    padding-left: 25%;
 
 }
+nav ul button {
+    background-color: #f19201;
+}
+li a:hover { background: #F19201;
+text-transform: uppercase;}
