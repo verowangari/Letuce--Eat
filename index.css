@@ -1,4 +1,7 @@
-nav{ background-color:brown;
+nav{ background-color:black;
+    background-image: url(images/image2.png);
+    
+    
 }
 nav .leftnav img { float: left;
     position: relative;
@@ -13,6 +16,8 @@ nav .Authentic .logotext{
     padding-top: 90px;
     font-weight: 700;
     font-size: 40px;
+    color: white;
+    padding-left: 60px;
     
 }
 nav .Authentic button{ background-color:#F19201;
@@ -28,7 +33,7 @@ border:none ;
 nav .leftnav{ 
     width: 100%;
     overflow: hidden;
-    background: darkslategray;
+    background-color: darkslategray;
     
 }
 nav ul li a { width: 100px;
@@ -56,6 +61,7 @@ nav ul button {
     border: none;
     font-weight: 700;
     color: white;
+    font-size: 16px;
 }
 li a:hover { background: #F19201;
 text-transform: uppercase;}
