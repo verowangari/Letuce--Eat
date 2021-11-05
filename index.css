@@ -74,6 +74,8 @@ text-transform: uppercase;}
 /* Styling for the first section ends here */
 .Second{ 
     background-color: gainsboro;
+    overflow: hidden;
+    padding-bottom: 30px;
 }
 .services{
     text-align: center;
@@ -83,7 +85,6 @@ text-transform: uppercase;}
 .top { 
     color: #f19201;
     
-   
     font-size: large;
 }
 .top p{ 
@@ -93,14 +94,19 @@ text-transform: uppercase;}
 
 .instructions{ 
     width: 100%;
-    margin: 0 0 0 600px;
-    padding: 25px;
+    margin: 0  0 0 300px;
+    padding:2%;
+    
+    
     
 }
 .meal{ float: left;
     padding-top: 20px;
-    margin: 25px;
+    margin-right: 15px;
     padding-right: 50px;
+    border-radius: 1px;
+    background-color:whitesmoke;
+    text-align: center;
    
 }
 .meal button {
@@ -113,3 +119,4 @@ text-transform: uppercase;}
    font-size: 20px;
    border: none;
 }
+/* Styling for the second section ends here */
