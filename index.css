@@ -72,3 +72,44 @@ li a:hover { background: #F19201;
 text-transform: uppercase;}
 
 /* Styling for the first section ends here */
+.Second{ 
+    background-color: gainsboro;
+}
+.services{
+    text-align: center;
+    padding-top: 20px;
+   
+}
+.top { 
+    color: #f19201;
+    
+   
+    font-size: large;
+}
+.top p{ 
+    color: black;
+    font-style: oblique;
+}
+
+.instructions{ 
+    width: 100%;
+    margin: 0 0 0 600px;
+    padding: 25px;
+    
+}
+.meal{ float: left;
+    padding-top: 20px;
+    margin: 25px;
+    padding-right: 50px;
+   
+}
+.meal button {
+    background-color: #f19201;
+   width: 60px;
+   height: 60px;
+   color: #ffff;
+   border-radius: 50%;
+   font-weight: bold;
+   font-size: 20px;
+   border: none;
+}
