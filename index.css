@@ -1,6 +1,7 @@
 nav{ background-color:black;
     background-image: url(images/image2.png);
     background-position: 50% 50%;
+    background-size: cover;
     
     
 }
@@ -75,6 +76,7 @@ text-transform: uppercase;}
     background-color: gainsboro;
     overflow: hidden;
     padding-bottom: 30px;
+    
 }
 .services{
     text-align: center;
@@ -120,17 +122,19 @@ text-transform: uppercase;}
 }
 /* Styling for the second section ends here */
 
-.Review{ 
-
-    width: 100%;
-    margin: 0 0 0 650px;
-    list-style: none;
-    padding-left: 35%;
-    color: whitesmoke;
-    background-color: black;
-    float: left;
+     .Review{ 
+         border: 3px solid blue;
+         padding: 20px;
+     }   
+     .child{
+         
+         width: 50%;
+         
+         padding: 20px;
+         border: 2px red;
+         
+        
+     }
     
-}
-.Review a{ text-decoration: none;
-color: white;
-}
+    
+/* Styling for the third section should  end here */
