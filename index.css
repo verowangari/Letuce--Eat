@@ -1,4 +1,5 @@
-nav{ background-color:black;
+nav{ background-color: none;
+  
     background-image: url(images/image2.png);
     background-position: 50% 50%;
     background-size: cover;
@@ -38,7 +39,7 @@ padding-bottom: 80px;}
 nav .leftnav{ 
     width: 100%;
     overflow: hidden;
-    background-color:darkslateblue;
+    background-color: black;
     
     
 }
@@ -121,9 +122,63 @@ text-transform: uppercase;}
    border: none;
 }
 /* Styling for the second section ends here */
+/* Styling for the first section ends here */
+.Second{ 
+    background-color: gainsboro;
+    overflow: hidden;
+    padding-bottom: 30px;
+    
+}
+.services{
+    text-align: center;
+    padding-top: 20px;
+   
+}
+.top { 
+    color: #f19201;
+    
+    font-size: large;
+}
+.top p{ 
+    color: black;
+    font-style: oblique;
+}
+
+.instructions{ 
+    width: 100%;
+    margin: 0  0 0 300px;
+    padding:2%;
+    
+    
+    
+}
+.meal{ float: left;
+    padding-top: 20px;
+    margin-right: 15px;
+    padding-right: 100px;
+    border-radius: 1px;
+    background-color:whitesmoke;
+    text-align: center;
+    height: 300px;
+
+   
+}
+.meal button {
+    background-color: #f19201;
+   width: 60px;
+   height: 60px;
+   color: #ffff;
+   border-radius: 50%;
+   font-weight: bold;
+   font-size: 20px;
+   border: none;
+}
+/* Styling for the second section ends here */
+
+/* this is the trial css*/
 
      .Review{ 
-         border: 3px solid blue;
+         
          padding: 20px;
      }   
      .child{
@@ -146,7 +201,7 @@ text-transform: uppercase;}
     padding-top: 20
 }
 
-.Three { border: 3px solid red;}
+
 
 /* Below is styling for the fourth part*/
 
@@ -168,7 +223,10 @@ font-size: 28px;
 .Fourth footer { text-align: center;
 background-color: black;
 color: white;
-padding-bottom: 20px;}
+padding-bottom: 20px;
+}
+
+
 .Fourth button{
     padding: 10px;
     padding-left: 20px;
@@ -179,4 +237,222 @@ padding-bottom: 20px;}
     color: white;
     background: none;
     border: 2px solid white;
-    font-size: 20px;
+    font-size: 20px;}
+
+    /* styling trial for third section*/
+    .container{
+        width: 100px;
+        max-width: 100%;
+        margin:  0 auto;
+    }
+
+    .row{
+        width: 1000px;
+        height: 400px;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+    
+    .card{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 800px;
+        height: 800px;
+        float: left;
+        padding-top: 20px;
+        
+        padding-right: 150px;
+        border-radius: 1px;
+        background-color:whitesmoke;
+        text-align: center;
+        background-image: url(images/image1.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+        
+        
+    }
+
+    .Second2{ 
+        background-color: gainsboro;
+        overflow: hidden;
+        padding-bottom: 20px;
+        height: 400;
+        
+       
+        
+    }
+
+    .card2{
+        margin-top: 10px;
+        width: 800px;
+        height: 800px;
+        float: left;
+        padding-top: 20px;
+      
+        padding-right: 50px;
+        border-radius: 1px;
+        background-color:black;
+        text-align: center;
+        color: white;
+        
+        
+       
+    }
+/* This below is styling for the fourth section second trial */
+
+.Second3{ 
+    background-color: gainsboro;
+    overflow: hidden;
+    padding-bottom: 20px;
+    height: 400;
+    
+   
+    
+}
+    .chapati2{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 320px;
+        height: 350px;
+        float: left;
+        padding-top: 20px;
+        
+        padding-right: 150px;
+        border-radius: 1px;
+        background-color:whitesmoke;
+        text-align: center;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-image: url(/images/image4.png);
+        
+        
+        
+    }
+
+    .chapatiword{
+        margin-top: 10px;
+        margin-right: 10px;
+        width: 320px;
+        height: 350px;
+        float: left;
+        padding-top: 20px;
+      
+        padding-right: 90px;
+        border-radius: 1px;
+        background-color: white;
+        text-align: center;
+        color: black
+        
+        
+       
+    }
+    .beef2{
+        margin-top: 10px;
+        margin-left: 10px;
+        width: 320px;
+        height: 350px;
+        float: left;
+        padding-top: 20px;
+        
+        padding-right: 150px;
+        border-radius: 1px;
+        background-color:whitesmoke;
+        text-align: center;
+        background-image: url(images/iamge5.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+    }
+    .beefword{
+        margin-top: 10px;
+        margin-right: 10px;
+        width: 320px;
+        height: 350px;
+        float: left;
+        padding-top: 20px;
+      
+        padding-right: 90px;
+        border-radius: 1px;
+        background-color: white;
+        text-align: center;
+        color:black;
+        
+    }
+.chicken2{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 320px;
+    height: 350px;
+    float: left;
+    padding-top: 20px;
+    
+    padding-right: 150px;
+    border-radius: 1px;
+    background-color:whitesmoke;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/image6.png);
+    
+}
+.chickenword{ 
+    margin-top: 10px;
+        margin-right: 10px;
+        width: 320px;
+        height: 350px;
+        float: left;
+        padding-top: 20px;
+      
+        padding-right: 90px;
+        border-radius: 1px;
+        background-color: white;
+        text-align: center;
+        color: black
+}
+
+        .plain2{
+            margin-top: 10px;
+    margin-left: 10px;
+    width: 320px;
+    height: 350px;
+    float: left;
+    padding-top: 20px;
+    
+    padding-right: 150px;
+    border-radius: 1px;
+    background-color:whitesmoke;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(/images/image7.png);
+        }
+
+        .plainword{
+
+            margin-top: 10px;
+        margin-right: 10px;
+        width: 320px;
+        height: 350px;
+        float: left;
+        padding-top: 20px;
+      
+        padding-right: 90px;
+        border-radius: 1px;
+        background-color: white;
+        text-align: center;
+        color: black
+        }
+        .Second3 button{ border: none;
+        padding: 20px;
+        }
+        .Second3 h4{ 
+            color: #F19201;
+            font-size: 20px;
+        }
