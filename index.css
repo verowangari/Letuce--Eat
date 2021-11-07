@@ -181,16 +181,23 @@ text-transform: uppercase;}
      .Review{ 
          
          padding: 20px;
+         list-style: none;
      }   
      .child{
          
          width: 50%;
          
          padding: 20px;
-         border: 2px red;
          
-        
+          
      }
+     .child h2{ font-size: 60px;
+        text-decoration-line: underline solid white;
+
+    
+    color: white;
+    }
+    
     
     
 /* Styling for the third section should  end here */
@@ -284,6 +291,9 @@ padding-bottom: 20px;
         
        
         
+    }
+    .Second2 h2{ 
+        text-decoration: none;
     }
 
     .card2{
@@ -456,4 +466,11 @@ padding-bottom: 20px;
         .Second3 h4{ 
             color: #F19201;
             font-size: 20px;
+        }
+        .Second3 .menu h2 { 
+            color: #F19201;
+        }
+
+        .Review h2{ 
+            color: white;
         }
