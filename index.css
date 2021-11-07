@@ -17,7 +17,7 @@ font-weight: bold;
 }
 nav .Authentic .logotext{ 
     padding-top: 90px;
-    font-weight: 700;
+    font-weight: 700px;
     font-size: 40px;
     color: white;
     padding-left: 60px;
@@ -40,6 +40,7 @@ nav .leftnav{
     width: 100%;
     overflow: hidden;
     background-color: black;
+    opacity: 0.5;
     
     
 }
